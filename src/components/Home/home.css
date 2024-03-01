@@ -1,0 +1,61 @@
+.home__content{
+    justify-content: center;
+    margin: 10% ;
+    text-align: center;
+}
+
+.home__Social{
+    display: flex;
+    column-gap: 5%;
+    justify-content: center;
+}
+
+.home__social-icon{
+    font-size: 1.25rem;
+    color: #FFFFFF
+}
+
+.home__social-icon:hover{
+    color:rgb(87, 197, 201)
+}
+
+.home__title{
+    font-size: 6vw;
+    color: #FFFFFF;
+}
+
+.icon{
+    width: 2vw;
+}
+
+
+.home__subtitle{
+    font-size: 2vw;
+    color: white
+}
+
+.animation{
+    animation: animation 2s forwards;
+  }
+  
+  @keyframes animation {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 2;
+        transform: translateY(-30%);
+    }
+  }
+@media screen and (max-width:425px) {
+    .home__content{
+        display: flex;
+        justify-content: center;
+        margin-top: 20% ;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+

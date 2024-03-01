@@ -1,0 +1,74 @@
+.Contact__data{
+  border: 2px solid rgb(87, 197, 201);
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  padding: 2vw;
+  margin: 10% 10%;
+  border-radius: 25px;
+}
+
+#social span{
+  font-weight: 900;
+  font-style: bold;
+  font-size: 1.7vw;
+  margin-right: 2%;
+}
+
+#section__description , #section_title, .Contact_icons, #social{
+  margin-bottom: 5%;
+  color: #ffffff;
+}
+
+.Contact_icons{
+  display: flex;
+  gap: 2vw;
+}
+
+.contact__container{
+    justify-content: center;
+    margin-bottom: 20%;
+    color: #ffffff;
+    font-style: bold;
+}
+
+#subtitle{
+    color: #ffffff;
+}
+
+@media screen and (max-width:425px) {
+  #section__title{
+    font-size: 3vw;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 5vw;
+    margin-bottom: 5%;
+  }
+
+  .Contact__data{
+    border: 2px solid rgb(87, 197, 201);
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    padding: 2vw;
+    margin: 10% 10%;
+    border-radius: 25px;
+  }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+  #section__title{
+    font-size: 1.5vw;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  #subtitle{
+    font-size: 2.5vw;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .Contact__data{
+   margin-top: 10%;
+  }
+}
