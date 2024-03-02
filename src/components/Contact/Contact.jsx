@@ -11,7 +11,7 @@ let Contact = () => {
           <p id="section__description">I work remotely or freelance with the power of the internet and am available on Fiverr, Upwork, and LinkedIn.</p>
           <div className="Contact_icons">
           <div>
-            <a href="https://www.fiverr.com/mnaeem99"  className="home__social-icon" target ="_blank">
+            <a href="https://www.fiverr.com/m_naeem9"  className="home__social-icon" target ="_blank">
           <img src={Fiverr} alt="Fiverr"/> </a>
           </div>
           <div>
