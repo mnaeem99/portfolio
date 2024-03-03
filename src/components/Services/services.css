@@ -42,6 +42,10 @@
     border-radius: 50%;
     padding: 5%;
 }
+.skill_img{
+    width: 90%;
+    height: 80%;
+}
 
 #icon{
     margin-left: 5%;

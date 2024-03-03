@@ -19,7 +19,7 @@
     border-bottom: 0.3vw solid rgb(87, 197, 201);
 }
 .about__description{
-    margin-top: 5%;
+    margin-top: 7%;
     justify-content: center;
     margin-bottom: 5%;
     line-height: 2vw;
@@ -28,7 +28,7 @@
 .title{
     color: #FFFFFF;
     font-size: 4vw;
-    margin-bottom: 0.8rem;
+    margin-bottom: 5%;
 }
 .about_img img{
     border-radius: 50%;
@@ -109,7 +109,7 @@
       .about_img img{
         border-radius: 50%;
         margin-top: 2%;
-        height: 200px;
+        height: 150px;
         width: 200px;
     }
     

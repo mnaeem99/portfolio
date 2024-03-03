@@ -70,98 +70,98 @@ let Services = () => {
                 <span className="section__subtitle">I work with</span>
                 <div className="skills">
                   <div className="border">
-                    <img src={Java} alt="JAVA"/>
+                    <img className="skill_img" src={Java} alt="JAVA"/>
                     <h3 className="skills__name">Java</h3>
                     </div>
         
                   <div className="border">
-                    <img src={kotlin} alt="KOTLIN"/>
+                    <img className="skill_img" src={kotlin} alt="KOTLIN"/>
                     <h3 className="skills__name">Kotlin</h3>
                     </div>
                   <div className="border">
-                    <img src={spring} alt="SPRING"/>
+                    <img className="skill_img" src={spring} alt="SPRING"/>
                     <h3 className="skills__name">Spring Boot</h3>
                     </div>
                   <div className="border">
-                    <img src={hibernate} alt="Hibernate"/>
+                    <img className="skill_img" src={hibernate} alt="Hibernate"/>
                     <h3 className="skills__name">Hibernate</h3>
                     </div>
         
                   <div className="border">
-                    <img src={Rest} alt="REST API"/>
+                    <img className="skill_img" src={Rest} alt="REST API"/>
                     <h3 className="skills__name">REST API</h3>
                     </div>
         
                   <div className="border">
-                    <img src={GraphQL} alt="GRAPHQL"/>
+                    <img className="skill_img" src={GraphQL} alt="GRAPHQL"/>
                     <h3 className="skills__name">GRAPHQL</h3>
                     </div>
                   <div className="border">
-                    <img src={MySQL} alt="MySQL"/>
+                    <img className="skill_img" src={MySQL} alt="MySQL"/>
                     <h3 className="skills__name">MySQL</h3>
                     </div>
                   <div className="border">
-                    <img src={PostgreSql} alt="PostgreSql"/>
+                    <img className="skill_img" src={PostgreSql} alt="PostgreSql"/>
                     <h3 className="skills__name">PostgreSQL</h3>
                     </div>
         
                   <div className="border">
-                    <img src={Javascript} alt="JavaScript"/>
+                    <img className="skill_img" src={Javascript} alt="JavaScript"/>
                     <h3 className="skills__name">Javascript</h3>
                     </div>
                             
                     <div className="border">
-                    <img src={TypeScript} alt="TypeScript"/>
+                    <img className="skill_img" src={TypeScript} alt="TypeScript"/>
                     <h3 className="skills__name">TypeScript</h3>
                     </div>
 
                   <div className="border">
-                    <img src={NodeJS} alt="Node"/>
+                    <img className="skill_img" src={NodeJS} alt="Node"/>
                     <h3 className="skills__name">NodeJs</h3>
                     </div>
 
                                                  
                     <div className="border">
-                    <img src={MongoDB} alt="MongoDB"/>
+                    <img className="skill_img" src={MongoDB} alt="MongoDB"/>
                     <h3 className="skills__name">MongoDB</h3>
                     </div>
 
                     <div className="border">
-                    <img src={React} alt="React"/>
+                    <img className="skill_img" src={React} alt="React"/>
                     <h3 className="skills__name">ReactJS</h3>
                     </div>
 
                     
                   <div className="border">
-                    <img src={NextJS} alt="Nest"/>
+                    <img className="skill_img" src={NextJS} alt="Nest"/>
                     <h3 className="skills__name">NextJS</h3>
                     </div>
         
         
                     <div className="border">
-                    <img src={MaterialUI} alt="MaterialUI"/>
+                    <img className="skill_img" src={MaterialUI} alt="MaterialUI"/>
                     <h3 className="skills__name">Material UI</h3>
                     </div>
         
                     <div className="border">
-                    <img src={Apollo} alt="Apollo"/>
+                    <img className="skill_img" src={Apollo} alt="Apollo" />
                     <h3 className="skills__name">Apollo GraphQL</h3>
                     </div>
         
         
                     
                     <div className="border">
-                    <img src={AWS} alt="AWS"/>
+                    <img className="skill_img" src={AWS} alt="AWS"/>
                     <h3 className="skills__name">AWS</h3>
                     </div>
                     
                     <div className="border">
-                      <img src={Docker} alt="Docker"/>
+                      <img className="skill_img" src={Docker} alt="Docker"/>
                       <h3 className="skills__name">Docker</h3>
                       </div>
                     
                     <div className="border">
-                      <img src={CICD} alt="CICD"/>
+                      <img className="skill_img" src={CICD} alt="CICD"/>
                       <h3 className="skills__name">CICD Pipeline</h3>
                       </div>
                              

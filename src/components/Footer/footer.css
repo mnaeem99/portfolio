@@ -37,4 +37,9 @@
       border-top-style: solid;
       border-color: #fdf8f8;
       }
+      
+  .Footer__container nav ul li {
+    display: inline;
+    margin-right: 5px;
+  }
   }

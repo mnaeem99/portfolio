@@ -21,8 +21,9 @@ let Projects = () => {
             <p style={{ marginTop: "2%", marginBottom: "2%" }}>
               Tracking System is a Microservices based Web application.
             </p>
-            <span>Java</span> <span>Spring Boot</span> <span>MySQL</span>{" "}
-            <span>MongoDB</span> <span>Docker</span> <span>Angular</span>
+            <span>Java</span> <span>Spring Boot</span> <span>MySQL</span>
+            <span>MongoDB</span> <span>Docker</span>
+            <br/>
             <a
               href="http://20.163.15.59:8080/"
               className="button"
@@ -41,8 +42,8 @@ let Projects = () => {
               Employee Attendance Management System for Sana Cash & Carry
               Employees.
             </p>
-            <span>Kotlin</span> <span>Spring Boot</span> <span>PostgreSL</span>{" "}
-            <span>GraphQL</span> <span>Docker</span> <span>NextJS</span> <br />
+            <span>Kotlin</span> <span>Spring Boot</span> <span>PostgreSL</span>
+            <span>GraphQL</span> <span>Docker</span> <br />
             <a
               href="https://http://62.72.19.115:3000/"
               className="button"
@@ -66,7 +67,7 @@ let Projects = () => {
             <p style={{ marginTop: "2%", marginBottom: "2%" }}>
               Employee Leave Management System for Eximia Employees.
             </p>
-            <span>Javascript</span> <span>NodeJS</span> <span>MongoDB</span>{" "}
+            <span>Javascript</span> <span>NodeJS</span> <span>MongoDB</span>
             <span>ReactJS</span> <span>AWS</span> <br />
             <a
               href="http://44.223.43.55/"
@@ -86,9 +87,7 @@ let Projects = () => {
               Server Side GraphQL application for e-commerce.
             </p>
             <span>Kotlin</span> <span>Spring Boot</span> <span>PostgreSL</span>
-            <br />
-            <br />
-            <span>GraphQL</span> <span>Docker</span> <span>AWS</span> <br />
+            <span>GraphQL</span> <span>AWS</span> <br />
             <a
               href="https://github.com/mnaeem99/shopping-server"
               className="button"
@@ -108,14 +107,13 @@ let Projects = () => {
             <img className="image" src={Project1} alt="Project Preview" />
           </div>
           <div className="project__description">
-            <h3>Grumpeat</h3>
+            <h3>Restaurant Place</h3>
             <p style={{ marginTop: "2%", marginBottom: "2%" }}>
-              Full Stack Restaurant Recommendation Application.
+              Social Media Restaurant Recommendation Application  .
             </p>
-            <span>Kotlin</span> <span>Spring Boot</span> <span>PostgreSL</span>{" "}
-            <span>GraphQL</span> <span>Docker</span> <span>AWS</span> <br />{" "}
-            <br />
-            <span>ReactJS</span> <span>NextJS</span> <span>Apollo GraphQL</span>{" "}
+            <span>Kotlin</span> <span>Spring Boot</span> <span>PostgreSQL</span>
+            <span>GraphQL</span> <span>Docker</span> <br /> <br />
+            <span>AWS</span> <span>ReactJS</span> <span>NextJS</span>
             <span>Redux</span> <span>Material UI</span> <br />
             <a
               href="https://grumpeat.com"
