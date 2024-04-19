@@ -8,7 +8,7 @@ let About = () => {
       <section id="about">
 
         <div className="About_Flex">
-          <div className="about_img" ><img src={Img} alt="hero left" className="about_img" /></div>
+          {/* <div className="about_img" ><img src={Img} alt="hero left" className="about_img" /></div> */}
           <div className="about__container">
             <div >
               <h1 className="title animation2">About Me</h1>
