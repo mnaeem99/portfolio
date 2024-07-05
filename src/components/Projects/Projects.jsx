@@ -4,6 +4,7 @@ import Project2 from "../../assets/project2.jpg"
 import Project1 from  "../../assets/project1.png"
 import Project4 from "../../assets/project4.png"
 import Project5 from "../../assets/project5.png"
+import Project6 from "../../assets/project6.png"
 
 
 let Projects = () => {
@@ -125,6 +126,29 @@ let Projects = () => {
             </a>
           </div>
         </div>
+
+        <div className="project">
+          <div className="project__img">
+            <img className="image" src={Project6} alt="Project Preview" />
+          </div>
+          <div className="project__description">
+            <h3>ComeHere</h3>
+            <p style={{ marginTop: "2%", marginBottom: "2%" }}>
+              Comprehensive store management system.
+            </p>
+            <span>Java</span> <span>Spring Boot</span> <span>PostgreSQL</span>
+            <span>Angular</span> <span>Docker</span> <br /> <br />
+            <a
+              href="https://comehere.com"
+              className="button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project <i class="bx bxs-right-arrow-alt"></i>
+            </a>
+          </div>
+        </div>
+
       </div>
     </section>
   );
