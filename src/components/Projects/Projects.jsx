@@ -5,6 +5,7 @@ import Project1 from  "../../assets/project1.png"
 import Project4 from "../../assets/project4.png"
 import Project5 from "../../assets/project5.png"
 import Project6 from "../../assets/project6.png"
+import Project7 from "../../assets/project7.png"
 
 
 let Projects = () => {
@@ -105,8 +106,33 @@ let Projects = () => {
 
         <div className="project">
           <div className="project__img">
-            <img className="image" src={Project1} alt="Project Preview" />
+            <img className="image" src={Project7} alt="Project Preview" />
           </div>
+          <div className="project__description">
+            <h3>Blogs</h3>
+            <p style={{ marginTop: "2%", marginBottom: "2%" }}>
+              Blogs Backend API.
+            </p>
+            <span>Java</span> <span>Spring Boot</span> <br />
+            <span>PostgreSQL</span>  <span>Liquibase</span> <br />
+            <span>QueryDSL</span> <span>Javers</span> <br />
+            <span>Nimbus JOSE + JWT</span> <br />
+            <span>Lombok</span> <span>MapStruct</span> <br />
+            <span>Spring Security </span> <br />
+            <span>Apache Tomcat</span> <span>Testcontainers</span> <br />
+            <span>Springdoc OpenAPI</span><br />
+            <a
+              href="https://github.com/mnaeem99/blogs"
+              className="button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project <i class="bx bxs-right-arrow-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className="project">
           <div className="project__description">
             <h3>Restaurant Place</h3>
             <p style={{ marginTop: "2%", marginBottom: "2%" }}>
@@ -125,6 +151,9 @@ let Projects = () => {
               View Project <i class="bx bxs-right-arrow-alt"></i>
             </a>
           </div>
+          <div className="project__img">
+            <img className="image" src={Project1} alt="Project Preview" />
+          </div>
         </div>
 
         <div className="project">
@@ -139,7 +168,7 @@ let Projects = () => {
             <span>Java</span> <span>Spring Boot</span> <span>PostgreSQL</span>
             <span>Angular</span> <span>Docker</span> <br /> <br />
             <a
-              href="https://comehere.com"
+              href="https://github.com/mnaeem99/comehere-store"
               className="button"
               target="_blank"
               rel="noreferrer"
