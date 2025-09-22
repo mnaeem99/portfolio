@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "muhammad-naeem-portfolio",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,7 +10,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "framer-motion": "^10.16.4",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.8.1",
+    "react-typed": "^2.0.12",
+    "aos": "^2.3.4"
   },
   "scripts": {
     "start": "react-scripts start",

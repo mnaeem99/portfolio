@@ -1,25 +1,83 @@
 
-import "./home.css"
-let Social = () =>{
-    return(
-    <div className="home__Social">
-    <a href="https://www.linkedin.com/in/mnaeem99" className="home__social-icon" target ="_blank">
-    <i className="uil uil-linkedin"></i>
-    </a>
-    <a href="mailto:m.naeem9073@gmail.com" className="home__social-icon" target ="_blank">
-    <i className="uil uil-fast-mail"></i>
-    </a>
-    <a href="https://wa.me/923086999073" className="home__social-icon" target ="_blank">
-    <i className="uil uil-whatsapp"></i>
-    </a>
-    <a href="https://www.facebook.com/mnaeem99" className="home__social-icon" target ="_blank">
-    <i className="uil uil-facebook"></i>
-    </a>
-    <a href="https://github.com/mnaeem99" className="home__social-icon" target ="_blank" rel="noreferrer">
-    <i className="uil uil-github"></i>
-    </a>
-    </div>
-    )
-}
+import React from 'react';
+import { motion } from 'framer-motion';
+import { 
+  FaLinkedin, 
+  FaEnvelope, 
+  FaWhatsapp, 
+  FaGithub,
+} from 'react-icons/fa';
+import { FaBriefcase } from 'react-icons/fa';
+import './home.css';
 
-export default Social
+const Social = () => {
+  const socialLinks = [
+    {
+      name: "LinkedIn",
+      icon: <FaLinkedin />,
+      url: "https://www.linkedin.com/in/mnaeem99",
+      color: "#0077b5"
+    },
+    {
+      name: "GitHub",
+      icon: <FaGithub />,
+      url: "https://github.com/mnaeem99",
+      color: "#333"
+    },
+    {
+      name: "Email",
+      icon: <FaEnvelope />,
+      url: "mailto:m.naeem9073@gmail.com",
+      color: "#ea4335"
+    },
+    {
+      name: "WhatsApp",
+      icon: <FaWhatsapp />,
+      url: "https://wa.me/923086999073",
+      color: "#25d366"
+    },
+    {
+      name: "Fiverr",
+      icon: <FaBriefcase />,
+      url: "https://www.fiverr.com/m_naeem9",
+      color: "#1dbf73"
+    },
+    // {
+    //   name: "Upwork",
+    //   icon: <FaBriefcase />,
+    //   url: "https://www.upwork.com/freelancers/~010ca4aa3692cb42ef",
+    //   color: "#14a800"
+    // }
+  ];
+
+  return (
+    <div className="home__social">
+      {socialLinks.map((social, index) => (
+        <motion.a
+          key={social.name}
+          href={social.url}
+          className="home__social-icon"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ '--social-color': social.color }}
+          whileHover={{ 
+            scale: 1.2,
+            y: -5
+          }}
+          whileTap={{ scale: 0.9 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ 
+            duration: 0.5,
+            delay: index * 0.1
+          }}
+          aria-label={`Visit my ${social.name} profile`}
+        >
+          {social.icon}
+        </motion.a>
+      ))}
+    </div>
+  );
+};
+
+export default Social;
