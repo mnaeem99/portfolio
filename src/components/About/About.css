@@ -7,6 +7,7 @@
   overflow: hidden;
   background: var(--bg-primary);
   padding: 2rem 0;
+  padding-top: 6rem; /* Account for fixed header */
 }
 
 .hero-background {
@@ -479,6 +480,7 @@
   .hero-section {
     min-height: 90vh;
     padding: 1rem 0;
+    padding-top: 5rem; /* Reduced padding for mobile */
   }
   
   .hero-content {
@@ -526,6 +528,7 @@
   .hero-section {
     min-height: 85vh;
     padding: 0.5rem 0;
+    padding-top: 4.5rem; /* Further reduced padding for smaller mobile screens */
   }
   
   .hero-content {
